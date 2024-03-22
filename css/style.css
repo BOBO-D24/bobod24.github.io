@@ -282,6 +282,7 @@ a:focus {
           align-items: center;
   background-color: #353434;
   border-radius: 100%;
+  transition: 0.5s ease 0s;
 }
 
 .do_section .do_container .box .img-box img {
