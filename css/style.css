@@ -1,7 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #d5d5d5;
 }
 
 .layout_padding {
@@ -472,6 +475,10 @@ a:focus {
 
 .work_section .work_container .box img {
   width: 100%;
+  transition: 0.3s ease-out;
+}
+.work_section .work_container .box img:hover{
+  box-shadow: black 0px 0px 10px 3px;
 }
 
 .work_section .work_container .box.b-2, .work_section .work_container .box.b-3 {
@@ -610,6 +617,7 @@ a:focus {
   background-size: cover;
   color: #ffffff;
   text-align: center;
+  box-shadow: black 0px 0px 10px 0px;
 }
 
 .target_section .detail-box {
@@ -640,11 +648,12 @@ a:focus {
 .contact_section .contact-form input {
   border: none;
   outline: none;
-  background-color: transparent;
+  background-color: #787878;
   width: 100%;
   margin: 15px 0;
   padding: 10px 20px;
   border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: inset black 0px 0px 9px 1px;
   border-radius: 30px;
 }
 
