@@ -151,6 +151,26 @@
     });
     
   }); 
+  // dark mode js
+  function myFunction() {
+      
+
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    
+
+    var btnTxt = document.getElementById("light");
+
+    if (btnTxt.innerHTML === "Light mode") {
+      btnTxt.innerHTML = "Dark Mode";
+      alert('Light mode activated')
+     } 
+     else {
+      
+         btnTxt.innerHTML = "Light mode";
+         alert('Dark mode activated')
+             }
+         }
   
   
   

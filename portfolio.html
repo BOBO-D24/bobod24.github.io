@@ -16,8 +16,6 @@
 
   <!-- slider stylesheet -->
   <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
@@ -27,19 +25,18 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-  <link href="css/portfolio.css" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="images\favicon-32x32.png" />
 </head>
 
 <body class="sub_page">
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">
-            <span>
-              Emmanuel
-            </span>
+            <span>Emmanuel</span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -62,6 +59,52 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+              <div class="user_option">
+                <a href="">
+                  <img src="images/user.png" alt="">
+                </a>
+                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div> -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Emmanuel
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"> About </a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="do.html"> What we do </a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html"> Portfolio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact me</a>
+                </li>
+                <li class="nav-item">
+                <button class="dark-mode-btn nav-link" onclick="myFunction()" id="light">Dark Mode</button>
                 </li>
               </ul>
               <div class="user_option">
@@ -151,20 +194,20 @@
   <!-- end work section -->
 
   <!-- info section -->
-  <section class="info_section ">
+  <section class="info_section " id="contact">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
           <div class="info_contact">
             <h5>
-              About Shop
+              About Me
             </h5>
             <div>
               <div class="img-box">
                 <img src="images/location-white.png" width="18px" alt="">
               </div>
               <p>
-                Address
+                Alagbado, Lagos, State, Nigeria
               </p>
             </div>
             <div>
@@ -172,7 +215,7 @@
                 <img src="images/telephone-white.png" width="12px" alt="">
               </div>
               <p>
-                +01 1234567890
+                +234 8165575580
               </p>
             </div>
             <div>
@@ -180,7 +223,9 @@
                 <img src="images/envelope-white.png" width="18px" alt="">
               </div>
               <p>
-                demo@gmail.com
+              bobodproject
+              <br>
+              @gmail.com
               </p>
             </div>
           </div>
@@ -191,70 +236,25 @@
               Informations
             </h5>
             <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              For more information, please contact me. I will reply as soon as possible.
             </p>
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="info_insta">
-            <h5>
-              Instagram
-            </h5>
-            <div class="insta_container">
-              <div>
-                <a href="">
-                  <div class="insta-box b-1">
-                    <img src="images/insta.png" alt="">
-                  </div>
-                </a>
-                <a href="">
-                  <div class="insta-box b-2">
-                    <img src="images/insta.png" alt="">
-                  </div>
-                </a>
-              </div>
-
-              <div>
-                <a href="">
-                  <div class="insta-box b-3">
-                    <img src="images/insta.png" alt="">
-                  </div>
-                </a>
-                <a href="">
-                  <div class="insta-box b-4">
-                    <img src="images/insta.png" alt="">
-                  </div>
-                </a>
-              </div>
-              <div>
-                <a href="">
-                  <div class="insta-box b-3">
-                    <img src="images/insta.png" alt="">
-                  </div>
-                </a>
-                <a href="">
-                  <div class="insta-box b-4">
-                    <img src="images/insta.png" alt="">
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+       
         <div class="col-md-3">
           <div class="info_form ">
-            <h5>
+            <!-- <h5>
               Newsletter
             </h5>
             <form action="">
               <input type="email" placeholder="Enter your email">
               <button>
                 Subscribe
-              </button>
+              </button> -->
             </form>
             <div class="social_box">
-              <a href="">
+              <a href="https://web.facebook.com/profile.php?id=100092241880002">
                 <img src="images/fb.png" alt="">
               </a>
               <a href="">
@@ -263,7 +263,7 @@
               <a href="">
                 <img src="images/linkedin.png" alt="">
               </a>
-              <a href="">
+              <a href="https://www.youtube.com/@diyproject7950">
                 <img src="images/youtube.png" alt="">
               </a>
             </div>
@@ -285,6 +285,7 @@
   </section>
   <!-- footer section -->
 
+  <script src="js/portfolio.js"></script>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
