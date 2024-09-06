@@ -1375,9 +1375,7 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -1436,6 +1434,13 @@ section,
   .contact .php-email-form {
     padding: 20px;
   }
+.hero{
+  min-height: unset;
+}
+.hero img{
+  object-fit: contain;
+}
+
 }
 
 .contact .php-email-form input[type=text],
