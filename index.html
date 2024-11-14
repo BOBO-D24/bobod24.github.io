@@ -92,7 +92,53 @@
       </div>
 
     </section><!-- /Hero Section -->
+<!-- <section>
+  <div class="col-lg-4 col-md-6 portfolio-item isotope-item" id="project-container"></div>
 
+
+  <script>
+  const projects = [
+  {
+    image: "assets/img/portfolio/app-1.jpg",
+    description: "This is the first project description.",
+    link: "https://github.com/user/project1"
+  },
+  {
+    image: "assets/img/portfolio/app-1.jpg",
+    description: "This is the second project description.",
+    link: "https://example.com/project2"
+  },
+  // ... more projects
+];
+
+
+const projectContainer = document.getElementById('project-container');
+
+projects.forEach(project => {
+  const projectDiv = document.createElement('div');
+  projectDiv.classList.add('project');
+  projectDiv.classList.add('portfolio-content');
+  projectDiv.classList.add('h-100');
+
+  const projectImage = document.createElement('img');
+  projectImage.src = project.image;
+  projectImage.alt = project.description;
+  projectDiv.appendChild(projectImage);
+
+  const projectDescription = document.createElement('p');
+  projectDescription.textContent = project.description;
+  projectDiv.appendChild(projectDescription);
+
+  const projectLink = document.createElement('a');
+  projectLink.href = project.link;
+  projectLink.target = "_blank"; // Open link in a new tab
+  projectLink.textContent = "Visit Project";
+  projectDiv.appendChild(projectLink);
+
+  projectContainer.appendChild(projectDiv);
+});
+  </script>
+</section> -->
  <!-- About Section -->
  <section id="about" class="about section">
 
